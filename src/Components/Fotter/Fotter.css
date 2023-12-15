@@ -1,6 +1,10 @@
 .fotter-section{
    position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
 }
 .copywrite-date{
-    
+    position: absolute;
+    top: 22rem;
 }

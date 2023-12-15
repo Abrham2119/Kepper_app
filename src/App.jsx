@@ -5,12 +5,10 @@ import Fotter from './Components/Fotter/Fotter';
 import Note from './Components/Note/Note';
 
 
-
 function App() {
   return (
     <div className="App">
       <Header/> 
-
       <Note/>
       <Fotter/>
       

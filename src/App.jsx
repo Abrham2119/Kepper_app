@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Fotter from './Components/Fotter/Fotter';
 import Note from './Components/Note/Note';
+import StudentList from './Components/StudentList/studentList';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Header/> 
       <Note/>
       <Fotter/>
+      <StudentList/>
       
     
       

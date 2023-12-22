@@ -4,16 +4,20 @@ import Header from './Components/Header/Header';
 import Fotter from './Components/Fotter/Fotter';
 import Note from './Components/Note/Note';
 import StudentList from './Components/StudentList/studentList';
-
+import Login from './Components/Login/Login';
+import UserApp from './Components/RegistrationForm/UserApp';
 
 function App() {
   return (
     <div className="App">
-      <Header/> 
+      <UserApp/>
+      {/* <Login/> */}
+
+      {/* <Header/> 
       <Note/>
-      <Fotter/>
-      <StudentList/>
-      
+      <Fotter/> */}
+      {/* <StudentList/> */}
+          
     
       
     </div>

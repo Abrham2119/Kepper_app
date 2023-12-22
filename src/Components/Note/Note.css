@@ -1,4 +1,4 @@
-.note-section{
+/* .note-section{
     background-color: white;
     display: flex;   
     flex-direction: column;
@@ -14,4 +14,16 @@
 }
 .note-title{
     font-size: 20px;
+} */
+
+.note-section{
+    display: flex;
+    gap: 2rem;
+    flex-direction: row;
+    align-items: start;
+    justify-content: center;
+    margin: 2rem 2rem;
 }
+
+
+

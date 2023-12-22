@@ -6,11 +6,13 @@ import Note from './Components/Note/Note';
 import StudentList from './Components/StudentList/studentList';
 import Login from './Components/Login/Login';
 import UserApp from './Components/RegistrationForm/UserApp';
+import Hooks from './Components/Hooks/Hooks';
 
 function App() {
   return (
     <div className="App">
-      <UserApp/>
+      <Hooks/>
+      {/* <UserApp/> */}
       {/* <Login/> */}
 
       {/* <Header/> 

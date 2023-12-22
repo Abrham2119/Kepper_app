@@ -4,9 +4,14 @@ import { useState } from 'react'
 
 const HookExample = () => {
 
+
+
+
+
+
+//count the number
     var [count,setCount]=useState(0);
      
-
 
     function handleIncreament(){
         setCount(count+1)       
@@ -27,6 +32,8 @@ const HookExample = () => {
         <p>{count}</p>
         <button onClick={handleIncreament}>+</button>
         <button onClick={handlDecreament}>-</button>
+        <p>{currentTime}</p>
+        <button></button>
     </div>
 
   )

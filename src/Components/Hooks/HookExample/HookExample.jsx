@@ -6,13 +6,13 @@ const HookExample = () => {
 
 
 
-
+  
 
 
 //count the number
-    var [count,setCount]=useState(0);
      
-
+    var [count,setCount]=useState(0);
+        
     function handleIncreament(){
         setCount(count+1)       
 
@@ -24,6 +24,15 @@ const HookExample = () => {
     }
 
     
+    var [time,setTime]=useState(new Date().toLocaleTimeString())
+  
+    function updateTime(){
+
+      setTime(new Date().toLocaleTimeString())
+
+    }
+
+    setInterval(updateTime,1000)
 
 
   return (
@@ -32,8 +41,18 @@ const HookExample = () => {
         <p>{count}</p>
         <button onClick={handleIncreament}>+</button>
         <button onClick={handlDecreament}>-</button>
-        <p>{currentTime}</p>
-        <button></button>
+    
+
+        {       
+        
+        /*To update the current time
+        
+        <h1>{currentTime}</h1>
+        <button onClick={timeInHours}>Time</button> */}
+
+
+        <h1>{time}</h1>
+        <button onClick={updateTime}>Time</button>
     </div>
 
   )

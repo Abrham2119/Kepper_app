@@ -3,12 +3,14 @@ import Declarative from './Declarative /Declarative'
 import Reactive from './Reactive/Reactive'
 import HookExample from './HookExample/HookExample'
 import Distructuring from './Distructuring/Distructuring'
+import EventhandlingHook from './ EventhandlingHook/ EventhandlingHook'
 
 const Hooks = () => {
   
   return (
     <div>
-      <Distructuring/>
+      <EventhandlingHook/>
+      {/* <Distructuring/> */}
 
       {/* <HookExample/> */}
         {/* <Declarative/> */}

@@ -24,19 +24,19 @@ const Distructuring = () => {
          <table>
             <tr>
                 <th>brand</th>
-                <th>Top speed </th>
                 <th>Top color</th>
+                <th>Top speed</th>
             </tr>
             <tr>
                 <th>{tesla.brand}</th>
-                <th>{tesla.teslacolor}</th>
-                <th>{tesla.teslatopspeed}</th>
+                <th>{teslacolor}</th>
+                <th>{teslatopspeed}</th>
                 
             </tr>
             <tr>
                 <th>{honda.brand}</th>
-                <th>{honda.hondacolor}</th>
-                <th>T{honda.hondatopspeed}</th>
+                <th>{hondacolor}</th>
+                <th>{hondatopspeed}</th>
                 
             </tr>
         </table> 

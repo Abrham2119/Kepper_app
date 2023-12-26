@@ -4,12 +4,15 @@ import Reactive from './Reactive/Reactive'
 import HookExample from './HookExample/HookExample'
 import Distructuring from './Distructuring/Distructuring'
 import EventhandlingHook from './ EventhandlingHook/ EventhandlingHook'
+import ReactForms from './ReactForms/ReactForms'
 
 const Hooks = () => {
   
   return (
     <div>
-      <EventhandlingHook/>
+      <ReactForms/>
+
+      {/* <EventhandlingHook/> */}
       {/* <Distructuring/> */}
 
       {/* <HookExample/> */}

@@ -1,13 +1,14 @@
 const Cars = [
   {
     brand: "tesla",
-    color: "black",
-    poplarity: "poplar"
+    color: ["black","gray"],
+    poplarity: {topspeed:"60",zerotosixtey:"3.40"}
   },
   {
     brand: "honda",
     color: "blue",
-    poplarity: "Most-poplar"
+    poplarity: {topspeed:"30",zerotosixtey:"2.50"}
+
   }
 
 

@@ -4,7 +4,8 @@ import Cars from './Cars';
 const Distructuring = () => {
 
    const [tesla,honda]=Cars;
-    
+
+
 
 
   return (
@@ -23,9 +24,9 @@ const Distructuring = () => {
                 
             </tr>
             <tr>
-                <th>{tesla.brand}</th>
+                <th>{honda.brand}</th>
                 <th>{honda.color}</th>
-                <th>T{honda.oplarity}</th>
+                <th>T{honda.poplarity}</th>
                 
             </tr>
         </table> 

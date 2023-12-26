@@ -6,6 +6,16 @@ const Distructuring = () => {
    const [tesla,honda]=Cars;
 
 
+   const {color:[teslacolor,teslacolorred]}=tesla;
+   const {color:[hondacolor,hondacorred]}=honda
+
+
+
+
+   const {poplarity:{topspeed:teslatopspeed}}=tesla;
+   const {poplarity:{topspeed:hondatopspeed}}=honda;
+
+
 
 
   return (
@@ -19,14 +29,14 @@ const Distructuring = () => {
             </tr>
             <tr>
                 <th>{tesla.brand}</th>
-                <th>{tesla.color}</th>
-                <th>{tesla.poplarity}</th>
+                <th>{tesla.teslacolor}</th>
+                <th>{tesla.teslatopspeed}</th>
                 
             </tr>
             <tr>
                 <th>{honda.brand}</th>
-                <th>{honda.color}</th>
-                <th>T{honda.poplarity}</th>
+                <th>{honda.hondacolor}</th>
+                <th>T{honda.hondatopspeed}</th>
                 
             </tr>
         </table> 
